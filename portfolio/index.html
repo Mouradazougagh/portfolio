@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Mourad Azougagh</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="img1" src="logoM.jpg" alt="">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#cv">CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">            
+        <h2>Home</h2>
+        <div class="container">
+
+            <p>Mourad Azougagh développeur <br> full-stack spécialisé dans le <br> développement front-end et back-end.</p>
+            <img src="mourad.jpg" alt="Développeur au travail" class="fade-in">
+        </div>
+    </section><br>
+
+
+        <section id="about"> 
+        <h2>À propos de moi</h2>    
+        <div class="container">
+
+            <img src="dev.jpg" alt="Développeur" class="fade-in">
+            <p>Je suis Mourad Azougagh, un développeur full-stack avec une expertise approfondie en HTML, CSS, JavaScript, PHP et SQL. Ma capacité à maîtriser ces technologies me permet de créer des sites web efficaces et fonctionnels, répondant aux besoins spécifiques de mes clients. Passionné par l'innovation numérique, je suis toujours prêt à relever de nouveaux défis et à explorer de nouvelles opportunités dans le domaine du développement web.</p>
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="cont">
+            <h2 class="h2">Contactez-moi</h2>
+            <form id="contact-form">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" >
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" ></textarea>
+                <button class="btn" type="submit">Envoyer</button>
+            </form>
+        </div>        
+        <div id="cv">
+            <h2 class="h2">Mon CV</h2>
+            <p>Téléchargez mon CV en cliquant sur le lien ci-dessous:</p>
+            <a href="cv.jpg" download="cv.jpg" class="button">Télécharger mon CV au format PDF</a>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <span>&copy; 2024 Mourad Azougagh</span>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #32142e;
+    color:wheat;
+    box-sizing: border-box;
+}
+.img1{
+    width: 70px;
+    height:70px;
+    border: 1px solid wheat;
+    box-shadow: 3px 3px 3px 0px #f39c12;
+
+}
+
+header {
+    color: #c0392b;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header h1 {
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: wheat;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: larger;
+    padding: 10px;
+
+}
+
+nav ul li:hover {
+    color: #c0392b; /* Rouge */
+    background-color: #f39c12;
+    border-radius: 20px;
+    border: 1px solid wheat ;
+    box-shadow: 5px 5px 5px 0px wheat;
+
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    animation: slide-in 1s ease-out;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+h2 {
+    color: #f39c12; /* Rouge */
+    margin-left: 45px;
+    border-radius: 20px;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 20%;
+    text-align: center;
+    box-shadow: 5px 5px 5px 0px wheat;
+}
+.h2{
+    color: #f39c12; /* Rouge */
+    margin: 20px;
+    border-radius: 20px;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 35%;
+    text-align: center;
+    box-shadow: 5px 5px 5px 0px wheat;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 0.5rem 0;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 60%;
+}
+button{
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 20%;
+}
+
+button {
+    background: #f39c12; /* Orange clair */
+    color: wheat;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button:hover {
+    background: #e67e22; /* Orange plus foncé */
+}
+#contact{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    color: wheat;
+    text-align: center;
+
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 4px 4px 4px 2px wheat;
+    height: 28px;
+    width: 70%;
+    
+}
+
+img {
+    border-radius: 10px;
+    animation: fade-in 1s ease-out;
+    width: 40%;
+    height: 420px;
+    border-radius: 50%;
+    border: 2px #f39c12 solid;
+    box-shadow: 9px 9px 9px 0px #f39c12;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #f39c12; /* Orange clair */
+    color: wheat;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+p{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40%;
+
+}
+p::first-letter{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40%;
+    color:#c0392b;
+
+}
+.button:hover {
+    background: #e67e22; /* Orange plus foncé */
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.cont{
+    margin: 10px;
+    padding-left: 20px;
+    width: 80%;
+}
+#cv{
+    width: 40%;
+}
+
